@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String args[]) {
+        int fairCoins = 98;
+        int doubleHeadCoins = 1;
+        int doubleTailCoins = 1;
+        
+        // Create an instance of probandstat
+        probandstat calculator = new probandstat();
+        
+        // Call the probabilityOfUnfairCoins2 method on the instance
+        double result = calculator.probabilityOfUnfairCoins2(fairCoins, doubleHeadCoins, doubleTailCoins);
+        
+        System.out.println(result);
+    }
+}
